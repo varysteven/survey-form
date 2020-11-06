@@ -1,1 +1,101 @@
+/*Font Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto&display=swap');
 
+body {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: orange;
+}
+/*Header*/
+header {
+  text-align: center;
+}
+#title {
+  font-size: 3rem;
+  font-family: 'Comfortaa', cursive;
+  margin: 3.5rem 0 1rem 0;
+  color: white;
+}
+#description {
+  font-size: 1.5rem;
+  margin: 1rem 0 1.7rem 0;
+  color: white;
+}
+p {
+  margin: 0 0 15px 0;
+}
+/*Form*/
+#survey-form {
+  width: 48rem;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #b56032;
+}
+@media (max-width: 800px) {
+  #survey-form {
+    max-width: 550px;
+  }
+}
+/*Inputs*/
+.form-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  color: white;
+  margin: 0;
+  padding: 20px 50px 0px 50px;
+  justify-conent: flex-start;
+}
+input {
+  margin: 16px 10px 0 0;
+}
+.form-control {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  height: 1.8rem;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.4rem;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.input-radio, .input-checkbox {
+  min-height: 1rem;
+  min-width: 1rem;
+}
+.input-radio:focus, .input-checkbox:focus {
+  outline: 0;
+}
+#comments {
+  font-family: 'Roboto', sans-serif;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#comments:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+#submit {
+  font-size: 1.2rem;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 2.5rem;
+  padding: 0.75rem;
+  color: inherit;
+  background: #37af65;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: 0;
+}
+#submit:focus {
+  outline: 0;
+}
