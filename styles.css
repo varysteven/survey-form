@@ -6,6 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url(background.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-color: orange;
